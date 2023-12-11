@@ -511,7 +511,7 @@ sup{
 }
 .load{
     background-image: url(images/load.webp);
-    background-size: cover;
+    background-size: contain;
 }
 .it{
     background-image: url(images/it.png);
