@@ -20,7 +20,7 @@
     }
     .main-segment-right{
         padding-left: 0;
-        width: auto;
+        width: 100%;
         /* background-color: yellow; */
     }
     select{

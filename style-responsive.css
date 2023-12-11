@@ -154,8 +154,8 @@
         display: block;
     }
     .product-card{
-        max-width: 35rem;
-        min-width: 35rem;
+        max-width: 32rem;
+        min-width: 32rem;
     }
 }
 
