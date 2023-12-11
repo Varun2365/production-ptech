@@ -295,8 +295,10 @@ nav h3{
 }
 .main-segment-right{
     width: 70%;
-    height: 100vh;
+    height: auto;
     padding-left: 8rem;
+    padding-bottom: 10rem;
+    /* background-color: red; */
 }
 h6{
     color: rgb(168, 168, 168);
@@ -423,3 +425,18 @@ select > select-dropdown {
         transform: translateY(3px);
     }
   }
+  .cart-button{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: #6366f1;
+    position: fixed;
+    bottom: 20px;
+    background-image: url(../images/cart.png);
+    background-size: 40%;
+    background-position:center;
+    background-repeat: no-repeat;
+    
+    right: 20px;
+    
+}
