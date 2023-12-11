@@ -348,7 +348,21 @@ nav a{
     background-size: contain;
 }
 
-
+.cart-button{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: #6366f1;
+    position: absolute;
+    bottom: 20px;
+    background-image: url(../images/cart.png);
+    background-size: 40%;
+    background-position:center;
+    background-repeat: no-repeat;
+    
+    right: 20px;
+    
+}
 .product-card-bottom{
     padding: 2rem 1rem;
 }

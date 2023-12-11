@@ -2,6 +2,9 @@
     .links{
         display: none;
     }
+    .nav{
+        height: 5rem;
+    }
     .body-segment{
         padding: 0 4rem;
     }
@@ -39,6 +42,16 @@
     .product-card-wrapper{
         flex-direction: column;
         align-items: center;
+    }
+    .product-card{
+        /* width: 400rem; */
+        /* flex-basis: 100%; */
+        max-width: 29rem;
+        /* height: 50rem; */
+        width: 100%;
+        height: 100rem;
+        margin: auto;
+        margin-bottom: 2rem;
     }
 }
 

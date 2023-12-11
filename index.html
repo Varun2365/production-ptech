@@ -375,10 +375,10 @@
         <div class="body-segment footer-segment">
             <div class="footer-card">
                 <h2>Links</h2>
-                <a href="#">Store</a>
-                <a href="#">Services</a>
-                <a href="#">Contact Us</a>
-                <a href="#">About</a>
+                <a href="pages/industrial-scales.html">Store</a>
+                <a href="#services">Services</a>
+                <a href="#contact">Contact Us</a>
+                <a href="#about">About</a>
             </div>
             <div class="footer-card">
                 <h2>Contact Info</h2>
@@ -479,18 +479,6 @@
         var email = document.getElementById("mail").value;
         var phone = document.getElementById("phone").value;
         var msg = document.getElementById("w3review").value;
-
-        // // console.log(name,email,phone,msg)
-        // Email.send({
-        //     SecureToken: "537ec5e7-04f1-4116-83e2-f6616f482587",
-        //     To: 'smtp.ptech@gmail.com',
-        //     From: "smtp.ptech@gmail.com",
-        //     Subject: "PTECH HOME PAGE QUERY",
-        //     Body: "Name: " + name + "<br>" + "Email: " + email + "<br>" + "Phone Number: " + phone + "<br>" + "Message: " + msg,
-        // }).then(
-        //     message => alert("We've recieved your query and will contact you soon! \nHave a great Day!")
-        // );
-
         var mailVerification = mail(name,phone,email,msg);
         console.log(mailVerification)
         if(mailVerification == 1){
