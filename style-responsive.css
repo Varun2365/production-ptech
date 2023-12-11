@@ -153,6 +153,10 @@
     .ham{
         display: block;
     }
+    .product-card{
+        max-width: 35rem;
+        min-width: 35rem;
+    }
 }
 
 @media only screen and (max-width: 611px){
