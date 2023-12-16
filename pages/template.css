@@ -226,7 +226,7 @@ nav h3{
     background-size: 120%;
 }
 .piece{
-    background-image: url(../images/ch.png);
+    background-image: url(../images/pieceCounting.png);
 }
 .platform{
 
@@ -292,6 +292,19 @@ nav h3{
 .singleended{
     background-image: url(../images/single\ handed\ loadcell.png);
     background-size: contain;
+}
+.compression{
+    background-image: url(../images/compressinLoadcell.png);
+}
+.wire{
+    background-image: url(../images/wireRopeLoadcell.png);
+}
+.jewel{
+    background-image: url(../images/lab.png);
+    background-size: 130%;
+}
+.plci{
+    background-image: url(../images/plc.png);
 }
 .main-segment-right{
     width: 70%;

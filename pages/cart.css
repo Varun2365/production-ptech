@@ -170,7 +170,7 @@ input::placeholder{
     background-image: url('../images/di.png');
 }
 .piece{
-    background-image: url(../images/ch.png);
+    background-image: url(../images/pieceCounting.png);
 }
 .heavy{
     background-image: url(../images/pp.png);
@@ -235,6 +235,19 @@ input::placeholder{
 .singleended{
     background-image: url(../images/single\ handed\ loadcell.png);
     background-size: contain;
+}
+.compression{
+    background-image: url(../images/compressinLoadcell.png);
+}
+.wire{
+    background-image: url(../images/wireRopeLoadcell.png);
+}
+.jewel{
+    background-image: url(../images/lab.png);
+    background-size: 130%;
+}
+.plci{
+    background-image: url(../images/plc.png);
 }
 .nav{
     height: 9vh;

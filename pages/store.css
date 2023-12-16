@@ -299,6 +299,9 @@ nav a{
 .pp{
     background-image: url('../images/pp.png');
 }
+.pph{
+    background-image: url('../images/heavy.png');
+}
 .cs{
     background-image: url('../images/cs.jpg');
 }
@@ -320,20 +323,37 @@ nav a{
 .loadcell{
     background-image: url('../images/load.webp');
 }
+.lab{
+    background-image: url('../images/lab.png');
+    /* background-size: cover; */
+}
+.loadcell1{
+    background-image: url('../images/zemic.png');
+}
+.wire{
+    background-image: url(../images/wireRopeLoadcell.png);
+}
 .plc{
     background-image: url('../images/loadcell.png');
 }
+.plcc{
+    background-image: url('../images/plc.png');
+}
+
 .selc{
     background-image: url('../images/single\ handed\ loadcell.png');
+}
+.compression{
+    background-image: url('../images/compressinLoadcell.png');
 }
 .over{
     background-image: url('../images/overhead.webp');
     /* background-size: cover; */
 }
 .ch{
-    background-image: url('../images/ch.png');
+    background-image: url('../images/pieceCounting.png');
     background-size: contain;
-    scale: 1.6;
+    /* scale: 1.6; */
 }
 .crane{
     background-image: url(../images/cs.jpg);

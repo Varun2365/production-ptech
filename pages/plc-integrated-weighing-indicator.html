@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Item Template</title>
+    <title>PLC Integrated Weighing Indicator</title>
     <link rel="stylesheet" href="template.css">
     <link rel="stylesheet" href="template-responsive.css">
     <link rel="shortcut icon" href="../images/store-favicon.png" type="image/x-icon">
@@ -64,27 +64,27 @@
     </nav>
     <div class="main">
         <div class="main-segment">
-            <div class="main-segment-left piece"></div>
+            <div class="main-segment-left plci"></div>
             <div class="main-segment-right">
-                <h6 class = "second">Personal Weighing Scales</h6>
-                <h1 class = "second">Peice Counting Weighing Scale</h1>
-                <p class="big second">Excellent Weighing Machine for</p>
+                <h6 class = "second">Weighing Automationo</h6>
+                <h1 class = "second">PLC Integrated Weighing Indicator</h1>
+                <!-- <p class="big second">Excellent Quality Crane Scale for</p>
                 <ul class = "second">
-                    <li>Retail Stores, Household works, Small Businesses, Industrial Use</li>
+                    <li>Industrial Use</li>
                 </ul>
                 <p class="big second">Technical Specifications</p>
-                <ul class = "second">
-                    <li>Pan Size: 250mm X 300mm</li>
-                    <li>e-Value: 2g</li>
-                    <li>Min Capacity: 40g</li>
-                    <li>Max Capacity: 30Kg</li>
+                <ul class = "second"> -->
+                    <!-- <li></li> -->
+                    <!-- <li>e-Value: 2g</li>
+                    <li>Min Capacity: 40g</li> -->
+                    <li>Capacity: As per customer requirement</li>
                 </ul>
                 <div class="flex second" style="display: flex; align-items: end;" >
-                    <!-- <h5 class="second">Price: <sup>₹</sup> <h5 class="v" id="price">2500</h5> /- </h5> -->
+                    <h5 class="second"><sup></sup> <h5 class="v" id="price">Quote For Pricing</h5></h5>
                 </div>
                 <select name="hello" id="value" onchange="updatePrice()" class="second">
-                    <option value="Piece Counting Machine">Piece Counting Machine</option>
-                    <!-- <option value="Piece Counting Metal Body">Piece Counting Metal Body</option> -->
+                    <option value="PLC Integrated Weighing Indicator">PLC Integrated Weighing Indicator</option>
+                    <!-- <option value="Crane Scale 5 Ton">Crane Scale 5 Ton</option> -->
                 </select>
                 <div class="flex-btn second">
                     <div class="flex-btn-left">
@@ -98,7 +98,7 @@
                     <div class="flex-btn-right">
                         <h3 class="buy">Confirm Order:</h3>
                         <div class="flex-btn-left-qty">
-                            <button class="cta-buy" onclick='addItemToCart("piece")'>Add For Quotation</button>
+                            <button class="cta-buy" onclick='addItemToCart("plci")'>Add For Quotation</button>
                         </div>
                     </div>
                 </div>
@@ -124,7 +124,19 @@
         ScrollReveal().reveal('.second',{delay: 200,inteval: 100,origin: "left"});
 
 
-       
+        // function updatePrice() {
+        //     var select = document.getElementById("value");
+        //     var priceElement = document.getElementById("price");
+        //     var bg = document.querySelector(".main-segment-left")
+
+        //     if (select.value === "Milk Weighing Scale") {
+        //         bg.style.backgroundImage= "url(../images/milk.png)"
+        //     } else if (select.value === "Tank Weighing System") {
+        //         bg.style.backgroundImage= "url(../images/spz.png)"
+        //         // bg.style.backgroundColor = "red"
+        //     }
+        // }
+
         function minus() {
             var value = document.querySelector(".value");
             if (value.innerText > 1) {

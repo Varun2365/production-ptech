@@ -2,7 +2,6 @@
 :root{
     --dark-blue: #041023;
     --pale:#6366f1;
-    /* --pale:#1f21a3; */
     --text-black:#0a1425;
     --dark-grey:#edebfe;
     --grey:#f7f8f9;
@@ -403,6 +402,7 @@ nav a{
 .product-card:hover .product-img{
     /* scale: 1.1; */
     width: 110%;
+    /* height: 110%; */
 }
 .product-card:hover {
     box-shadow: 0 0 10px 5px rgba(128, 128, 128, 0.219);
@@ -497,6 +497,10 @@ sup{
     background-image: url(images/industry.jpg);
     background-size: cover;
 }
+.lab{
+    background-image: url('../images/lab.png');
+    /* background-size: cover; */
+}
 .ps{
     background-image: url(images/personal.jpg);
     background-size: cover;
@@ -540,6 +544,11 @@ sup{
 .spz{
     background-image: url(images/spz.png);
     background-size: contain;
+}
+.spz2{
+    background-image: url(images/spz.png);
+    background-size: cover;
+    background-position-y: 75%;
 }
 
 
