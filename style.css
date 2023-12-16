@@ -498,7 +498,7 @@ sup{
     background-size: cover;
 }
 .lab{
-    background-image: url('../images/lab.png');
+    background-image: url(images/lab.png);
     /* background-size: cover; */
 }
 .ps{
