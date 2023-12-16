@@ -249,6 +249,18 @@ input::placeholder{
 .plci{
     background-image: url(../images/plc.png);
 }
+.pitType{
+    background-image: url(../images/pitTypeWeighBridge.jpeg);
+    background-size: cover;
+}
+.pitLess{
+    background-image: url(../images/pitlessWeighBridge.jpeg);
+    background-size: cover;
+}
+.mobilew{
+    background-image: url(../images/mobile.png);
+    background-size: contain;
+}
 .nav{
     height: 9vh;
     width: 100%;

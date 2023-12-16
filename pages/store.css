@@ -260,6 +260,9 @@ nav a{
     margin-right: 3rem;
 
 }
+.weighCard{
+    padding-top: 0;
+}
 .product-card a{
     width: 48%;
     background-color: red;
@@ -354,6 +357,18 @@ nav a{
     background-image: url('../images/pieceCounting.png');
     background-size: contain;
     /* scale: 1.6; */
+}
+.pitType{
+    background-image: url(../images/pitTypeWeighBridge.jpeg);
+    background-size: cover;
+}
+.pitLess{
+    background-image: url(../images/pitlessWeighBridge.jpeg);
+    background-size: cover;
+}
+.mobilew{
+    background-image: url(../images/mobile.png);
+    background-size: cover;
 }
 .crane{
     background-image: url(../images/cs.jpg);
