@@ -353,6 +353,10 @@ nav a{
     background-image: url('../images/overhead.webp');
     /* background-size: cover; */
 }
+.printerIndicator{
+    background-image: url('../images/printerIndicator.png');
+    /* background-size: cover; */
+}
 .ch{
     background-image: url('../images/pieceCounting.png');
     background-size: contain;

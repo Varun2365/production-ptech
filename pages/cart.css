@@ -261,6 +261,10 @@ input::placeholder{
     background-image: url(../images/mobile.png);
     background-size: contain;
 }
+.printerIndicator{
+    background-image: url(../images/printerIndicator.png);
+    background-size: contain;
+}
 .nav{
     height: 9vh;
     width: 100%;

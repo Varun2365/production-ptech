@@ -318,6 +318,10 @@ nav h3{
     background-image: url(../images/mobile.png);
     background-size: contain;
 }
+.printerIndicator{
+    background-image: url(../images/printerIndicator.png);
+    background-size: contain;
+}
 .main-segment-right{
     width: 70%;
     height: auto;
