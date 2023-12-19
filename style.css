@@ -410,12 +410,10 @@ nav a{
 .product-img{
     height: 12.93rem;
     width: 100%;
-    /* background-color: #0d0031; */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     transition: all 0.4s ease-out;
-    /* border-bottom: 1px solid rgba(128, 128, 128, 0.144); */
 }
 .card-bottom{
     padding: 2rem 1rem;
@@ -425,7 +423,6 @@ nav a{
     flex-direction: column;
     width: 100%;
     height: auto;
-    /* background-color: yellow; */
 }
 .product-card h5{
     font-size: 1.4rem;

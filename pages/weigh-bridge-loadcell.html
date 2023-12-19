@@ -127,26 +127,30 @@
         ScrollReveal().reveal('.second',{delay: 200,inteval: 100,origin: "left"});
 
 
-        // function updatePrice() {
-        //     var select = document.getElementById("value");
-        //     var priceElement = document.getElementById("price");
+        function updatePrice() {
+            var select = document.getElementById("value");
+            var priceElement = document.getElementById("price");
 
-        //     if (select.value === "Zemic Loadcell Digital") {
-        //         priceElement.innerText = "4500";
-        //         var bg = document.querySelector(".main-segment-left");
-        //         // bg.style.backgroundImage = "url(../images/ch.png)"
-        //     } else if (select.value === "Zemic Loadcell Analog") {
-        //         priceElement.innerText = "4800";
-        //         var bg = document.querySelector(".main-segment-left");
-        //         // bg.style.backgroundImage = "url(../images/table\\ top.png)"
-        //     }
-        //     else if(select.value == "Keli Loadcell Digital"){
-        //         priceElement.innerText = "5600"
-        //     }
-        //     else if(select.value == "Keli Loadcell Analog"){
-        //         priceElement.innerText = "6500"
-        //     }
-        // }
+            if (select.value === "Zemic Loadcell Digital") {
+                // priceElement.innerText = "4500";
+                var bg = document.querySelector(".main-segment-left");
+                bg.style.backgroundImage = "url(../images/zemic.png)"
+            } else if (select.value === "Zemic Loadcell Analog") {
+                // priceElement.innerText = "4800";
+                var bg = document.querySelector(".main-segment-left");
+                bg.style.backgroundImage = "url(../images/zemic.png)"
+            }
+            else if(select.value == "Keli Loadcell Digital"){
+                // priceElement.innerText = "5600"
+                var bg = document.querySelector(".main-segment-left");
+                bg.style.backgroundImage = "url(../images/keli.webp)"
+            }
+            else if(select.value == "Keli Loadcell Analog"){
+                // priceElement.innerText = "6500"
+                var bg = document.querySelector(".main-segment-left");
+                bg.style.backgroundImage = "url(../images/keli.webp)"
+            }
+        }
 
         function minus() {
             var value = document.querySelector(".value");
