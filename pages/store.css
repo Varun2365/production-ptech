@@ -135,6 +135,7 @@ nav a{
     text-align: center;
     transition: all 0.2s ease-in-out;
     /* background-color: rebeccapurple; */
+    letter-spacing: 1.5px;
 }
 .nav-mobile a:hover{
     background-color: black;
