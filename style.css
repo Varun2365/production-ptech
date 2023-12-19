@@ -159,7 +159,6 @@ nav a{
     color: white;
     text-align: center;
     transition: all 0.2s ease-in-out;
-    /* background-color: rebeccapurple; */
 }
 .nav-mobile a:hover{
     background-color: black;
