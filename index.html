@@ -307,7 +307,7 @@
             <h1 class="slow">About Us</h1>
             <h6 class="slow">P- Tech Scales is one of leading weighing scales manufacturing and weighing service
                 industry since last
-                21 years .
+                22 years .
                 We have wide range of electronic weighing machines like table top scale, personal scale, baby scale,
                 platform scale, crane scale, cattle scale, milk weighing ,tank weighing ,truck scale upto 200 ton .
                 We also develop customize requirements like weighing automation for different industrial applications.
@@ -503,9 +503,11 @@
         if(mailVerification == 1){
 
             Email.send({
-            SecureToken : "537ec5e7-04f1-4116-83e2-f6616f482587",
-            To : 'smtp.ptech@gmail.com',
-            From : "smtp.ptech@gmail.com",
+           Host : "smtp.elasticemail.com",
+        Username : "ptechscale@gmail.com",
+        Password : "F34257EB6784F02934E93A8048010B78E236",
+        To : email,
+        From : "ptechscale@gmail.com",
             Subject : "PTECH QUOTATION",
             Body :  "Name: " + name + "<br>" + "Email: " + email + "<br>" + "Phone Number: " + phone + "<br>" + "Message: " + msg,
         }).then(
